@@ -45,3 +45,8 @@ Thumbs.db
 
 # Development patch staging folder
 /OrbitFlow-Phase3-UI-Polish-Patch/
+
+# Exclude internal phase notes
+/PHASE1-STAGE4-README.md
+/PHASE2-STAGE4-README.md
+/PHASE2-STAGE5-README.md
