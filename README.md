@@ -77,16 +77,13 @@ The original page layouts were preserved. The new return page reuses the same Or
 
    Open `http://127.0.0.1:8000`.
 
-## Local test accounts
+## Local demo data
 
-The seeder creates these development-only accounts:
+For local development, run `php artisan db:seed` to populate the database with sample users, equipment, and borrowing records.
 
-| Role | Email | Password |
-|---|---|---|
-| Admin / Petugas | `admin@orbitflow.test` | `password123` |
-| Siswa / Peminjam | `student@orbitflow.test` | `password123` |
+The demo data is defined in `database/seeders/OrbitFlowDemoSeeder.php`.
 
-Do not use these credentials in a public deployment. The ZIP does not include `.env`, your local database, or database contents.
+Use the demo seeder only with a development database. Do not run it against a production database or one containing real school records.
 
 ## Return workflow
 
